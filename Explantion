@@ -1,2 +1,1 @@
-The include command makes sure we have a proper working servo code. the potin defines the spot where the wire is connected to A0 so they can read the things they need to.
-The val is there so we can define it later to read the A0 aka the pot-meter. The setup of the myservo is where the wire from 
+The code 
