@@ -1,1 +1,6 @@
-The code 
+The code has #include <Servo.h> and Servo myservo; so it knows we're working with servos. We have the initial set up of potpin = A0, 
+one of the wires from the potentiometer is connected to A0 so it can be read. The servoattach has pin9 because the signal pin is 
+connected to the 9th pin, then the serial so we can read stuff in the serial board. Moving on from the initial, we have val which
+will read the analogPin of potpin and we need a sensorvalue to read the potentiometer. we have a map for val now as it needs the
+minimum and maximum values for our two things. Finally, we have the print commands to format it correctly in the serial board with 
+the delay so it doesn't break the screen with piles of numbers.
